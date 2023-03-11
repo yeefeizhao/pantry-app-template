@@ -1,0 +1,25 @@
+.updateAccount {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.textbox {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 15vw;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: #f7b801;
+}

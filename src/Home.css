@@ -1,0 +1,98 @@
+body {
+    text-transform: initial !important;
+    overflow-x: hidden;
+}
+
+.home {
+    height: 96vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    /*align-items: center;
+    justify-content: center;*/
+}
+
+.text {
+    text-decoration: underline;
+    text-decoration-color: #f7b801;
+    font-style: italic;
+    font-family: "Barlow Condensed", sans-serif !important;
+}
+
+.heroImage {
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.landing_image {
+    content: url("images/home.jpg");
+    max-width: 100vw;
+    /*height: 96vh;*/
+    height: 100%;
+    width: 100%;
+    filter: brightness(60%);
+}
+
+.heroImage h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 6vw;
+    font-family: "Barlow Condensed", sans-serif;
+    text-transform: uppercase;
+}
+
+.text_box {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+}
+
+#desc {
+    width: 75%;
+    margin-top: 8vh;
+}
+
+#desc,
+.card {
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.123);
+    border-radius: 15px;
+    border: solid 1px lightgray !important;
+}
+
+#desc h2 {
+    border-bottom: solid 2px #6495ed;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#desc p {
+    color: black;
+}
+
+.main {
+    height: 96vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    /*align-items: center;
+    justify-content: center;*/
+    margin-left: 20%;
+    margin-bottom: 35vh;
+}
+
+.home-title {
+    color: #3d348b !important;
+}
+
+.home-button {
+    background-color: #f7b801 !important;
+    border-color: #f7b801 !important;
+}
